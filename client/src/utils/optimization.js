@@ -1,4 +1,3 @@
-// Дебаунсінг: сработает только через delay мс после ТОГО, как пользователь ЗАКОНЧИЛ ввод 
 export function debounce(func, delay) {
   let timeoutId;
   return function (...args) {
