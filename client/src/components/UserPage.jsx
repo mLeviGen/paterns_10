@@ -71,7 +71,7 @@ export default function UserPage() {
                     <textarea name="bio" value={profile.bio} onChange={handleInputChange} rows="3" style={{ padding: '8px', width: '100%', background: '#ffffff', color: '#000000', border: '1px solid #ccc', borderRadius: '4px', marginTop: '5px', resize: 'none' }} />
                 </label>
                 <button type="submit" style={{ background: '#007acc', color: '#ffffff', border: 'none', padding: '10px', cursor: 'pointer', fontWeight: 'bold', borderRadius: '4px', marginTop: '10px' }}>
-                    Надіслати інпути до PostgreSQL
+                    Додати профіль
                 </button>
             </form>
             {statusMessage && <div style={{ marginTop: '15px', padding: '10px', background: '#eef7ff', color: '#0055aa', borderRadius: '4px', fontWeight: 'bold' }}>{statusMessage}</div>}
