@@ -47,7 +47,6 @@ export default function SuperAdminPage() {
                 <div style={{ background: '#f9f9f9', padding: '15px', borderRadius: '6px', flex: 1, border: '1px solid #e0e0e0' }}>
                     <h4 element="status">Статус СУБД: <span style={{ color: dbStatus === 'CONNECTED' ? '#5cb85c' : '#d9534f' }}>{dbStatus}</span></h4>
                     <p style={{ fontSize: '13px', color: '#666' }}>Кнопка нижче захищена троттлінгом на 2000мс від спам-кліків.</p>
-                    {/* Привязываем троттленный обработчик [cite: 151] */}
                     <button 
                         onClick={throttledWipe}
                         style={{ background: '#d9534f', color: '#ffffff', border: 'none', padding: '10px', width: '100%', cursor: 'pointer', fontWeight: 'bold', marginTop: '15px', borderRadius: '4px' }}
